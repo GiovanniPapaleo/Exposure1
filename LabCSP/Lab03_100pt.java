@@ -10,7 +10,7 @@ public class Lab03_100pt {
         int remainder = seconds % 3600;
         int minutes = remainder / 60;
         int remaining_seconds = remainder % 60;
-        int remaining_milliseconds = milliseconds % 1000
+        int remaining_milliseconds = milliseconds % 1000;
 
 
         System.out.println("Starting seconds: \t" + seconds);
