@@ -10,6 +10,7 @@ public class Lab03_100pt {
         int remainder = seconds % 3600;
         int minutes = remainder / 60;
         int remaining_seconds = remainder % 60;
+        int remaining_milliseconds = milliseconds % 1000
 
 
         System.out.println("Starting seconds: \t" + seconds);
@@ -17,6 +18,6 @@ public class Lab03_100pt {
         System.out.println("Minutes: \t\t\t" + minutes);
         System.out.println("Seconds: \t\t\t" + remaining_seconds);
         System.out.println("10000123 milliseconds equals: ");
-        System.out.println(hours + " hours, " + minutes + " minutes, " + remaining_seconds + " seconds." + remaining_seconds + " milliseconds.");
+        System.out.println(hours + " hours, " + minutes + " minutes, " + remaining_seconds + " seconds." + remaining_milliseconds + " milliseconds.");
     }
 }
